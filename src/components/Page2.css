@@ -1,0 +1,66 @@
+/* src/components/Page2.css */
+.page2-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.page2-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.page2-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.page2-container label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.page2-container input[type="radio"] {
+  margin-left: 10px;
+}
+
+.page2-container select {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.page2-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.page2-container button:hover {
+  background-color: #0056b3;
+}
+
+.page2-container fieldset {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.page2-container fieldset legend {
+  font-weight: bold;
+}
+
+.page2-container fieldset label {
+  margin-right: 10px;
+}

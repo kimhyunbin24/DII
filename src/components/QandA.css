@@ -1,0 +1,25 @@
+/* QandA.css */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.reference-section {
+  margin-top: 30px; /* 문단 간 여백 추가 */
+  padding-top: 20px; /* 섹션 내부 패딩 */
+  border-top: 1px solid #ccc; /* 구분선을 추가하여 섹션을 구분 */
+}
+
+.reference-section h2 {
+  font-size: 24px; /* 레퍼런스 섹션의 글자를 크게 */
+  margin-bottom: 10px; /* 제목과 링크 간 여백 */
+}
+
+.reference-section a {
+  color: #007bff; /* 링크 색상 */
+  text-decoration: none; /* 링크 밑줄 제거 */
+}
+
+.reference-section a:hover {
+  text-decoration: underline; /* 링크에 호버 시 밑줄 추가 */
+}

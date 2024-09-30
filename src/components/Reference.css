@@ -1,0 +1,33 @@
+.reference {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.reference .content-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.reference .image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.reference .image-container img {
+  max-width: 50%; /* 이미지 크기 조정 */
+  height: auto;
+}
+
+.reference .text-container {
+  flex: 2;
+}
+
+.reference .text-container section {
+  margin-bottom: 20px;
+}
